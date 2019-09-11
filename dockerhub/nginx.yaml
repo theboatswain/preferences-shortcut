@@ -1,7 +1,8 @@
 !ShortcutYAML
 author: Boatswain
+email: ''
 image_name: nginx
-release_date: '2019-09-11T04:44:57'
+release_date: '2019-09-11T05:07:20'
 repo: dockerhub
 shortcuts:
 - default_value: '8080'
