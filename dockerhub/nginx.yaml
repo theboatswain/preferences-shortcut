@@ -1,0 +1,22 @@
+!ShortcutYAML
+author: Boatswain
+image_name: nginx
+release_date: '2019-09-11T04:44:57'
+repo: dockerhub
+shortcuts:
+- default_value: '8080'
+  description: ''
+  enabled: true
+  label: Port
+  mapping_to: '80'
+  order: -1
+  pref_type: Number
+  shortcut: Port Mapping
+- default_value: /Users/manhtu/Documents/Project/boatswain/boatswain
+  description: Default html directory.
+  enabled: true
+  label: Root dir
+  mapping_to: /usr/share/nginx/html
+  order: 0
+  pref_type: Folder
+  shortcut: Volume Mount
