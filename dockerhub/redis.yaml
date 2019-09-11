@@ -1,0 +1,23 @@
+!ShortcutYAML
+author: Boatswain
+email: ''
+image_name: redis
+release_date: '2019-09-11T06:02:01'
+repo: dockerhub
+shortcuts:
+- default_value: '6379'
+  description: ''
+  enabled: true
+  label: Port
+  mapping_to: '6379'
+  order: 0
+  pref_type: Number
+  shortcut: Port Mapping
+- default_value: /Users/manhtu/Downloads/data
+  description: ''
+  enabled: false
+  label: Data dir
+  mapping_to: /data
+  order: 10000
+  pref_type: Folder
+  shortcut: Volume Mount
