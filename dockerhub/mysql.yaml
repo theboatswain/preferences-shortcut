@@ -1,0 +1,39 @@
+!ShortcutYAML
+author: Boatswain
+email: ''
+image_name: mysql
+release_date: '2019-09-11T20:35:48'
+repo: dockerhub
+shortcuts:
+- default_value: '3306'
+  description: Mysql's default port
+  enabled: true
+  label: Port
+  mapping_to: '3306'
+  order: -1
+  pref_type: Number
+  shortcut: Port Mapping
+- default_value: root
+  description: Default username
+  enabled: true
+  label: User
+  mapping_to: ''
+  order: 0
+  pref_type: String
+  shortcut: Constant
+- default_value: '12345'
+  description: Default mysql's password
+  enabled: true
+  label: Passwd
+  mapping_to: MYSQL_ROOT_PASSWORD
+  order: 9998
+  pref_type: String
+  shortcut: Environment
+- default_value: /Users/manhtu/Downloads/mysql
+  description: Default data's folder
+  enabled: true
+  label: Data dir
+  mapping_to: /var/lib/mysql
+  order: 30000
+  pref_type: Folder
+  shortcut: Volume Mount
