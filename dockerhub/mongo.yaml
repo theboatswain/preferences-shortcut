@@ -1,0 +1,39 @@
+!ShortcutYAML
+author: Boatswain
+email: ''
+image_name: mongo
+release_date: '2019-09-14T18:41:07'
+repo: dockerhub
+shortcuts:
+- default_value: '27017'
+  description: Default mongodb port
+  enabled: true
+  label: Port
+  mapping_to: '27017'
+  order: 0
+  pref_type: Number
+  shortcut: Port Mapping
+- default_value: admin
+  description: Admin username
+  enabled: true
+  label: User
+  mapping_to: MONGO_INITDB_ROOT_USERNAME
+  order: 10000
+  pref_type: String
+  shortcut: Environment
+- default_value: '12345'
+  description: Default admin's password
+  enabled: true
+  label: Passwd
+  mapping_to: MONGO_INITDB_ROOT_PASSWORD
+  order: 20000
+  pref_type: String
+  shortcut: Environment
+- default_value: /Users/manhtu/Downloads/mongo
+  description: Default data's storage
+  enabled: true
+  label: Data dir
+  mapping_to: /data/db
+  order: 30000
+  pref_type: Folder
+  shortcut: Volume Mount
